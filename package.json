@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/DenGZR/node-express-rest-api.git"
   },
   "author": "Gazira Denis",
   "email": "gazira.den@gmail.com",
