@@ -1,0 +1,32 @@
+{
+  "name": "task-express-api-token-auth",
+  "version": "1.0.0",
+  "description": "Task of token based authentication with Node.js, Express.js, MongoDB and Mongoose.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js --exec babel-node NODE_ENV=development",
+    "debug": "nodemon app.js --exec babel-node --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Gazira Denis",
+  "email": "gazira.den@gmail.com",
+  "dependencies": {
+    "async": "^2.0.1",
+    "babel": "5.x",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.1",
+    "mongoose": "^4.3.4",
+    "shortid": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
